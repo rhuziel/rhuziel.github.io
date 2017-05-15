@@ -1,0 +1,49 @@
+html {
+		  box-sizing: border-box;
+		}
+		*, *:before, *:after {
+		  box-sizing: inherit;
+		}
+		body {
+			background: #f0da4f;
+			font-family: Arial, "sans-serif";
+		}
+		.wrap {
+			width: 100%;
+			max-width: 1000px;
+			margin: -150px 0 auto;
+			height: 305px;
+		  position: absolute;
+		  top: 50%;
+		}
+		.logobox {
+			width: 50%;
+			display: inline-block;
+			float: left;
+			text-align: right;
+			padding-right: 40px;
+		}
+		.content {
+			width: 50%;
+			display: inline-block;
+			float: left;			
+			padding-left: 40px;
+			font-size: 30px;
+			border-left: 1px solid;
+		}	
+		.handles_list{
+			list-style: none;
+			padding: 0;
+			margin-top: 10px;
+		}
+		.handles_list li {
+			margin-bottom: 20px;
+		}
+		.code{
+		    margin-top: 21px;
+		    font-size: 27px;
+		    margin-left: 0px;
+		    margin-bottom: 44px;
+		    font-style: italic;
+		    font-weight: bold;
+		}
